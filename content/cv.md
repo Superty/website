@@ -83,8 +83,8 @@ Worked on performance optimizing RPC calls in a C++ microservices framework.
 ### Visiting Researcher at the Alignment Research Center
 **August 2025**
 
-<p class="exp-desc" data-tags="theory">Worked with a team of math/theoretical CS PhDs. In two weeks, I found a counterexample for a proposed algorithm, showing it yielded poor approximations. The problem had been open for two months.</p>
-<p class="exp-desc" data-tags="ai-safety">AI safety research towards mechanistic anomaly detection. Specifically, did theoretical research on a toy model involving matrix permanent estimation.</p>
+<p class="exp-desc" data-tags="theory">Worked on approximation algorithms for the matrix permanent.</p>
+<p class="exp-desc" data-tags="ai-safety">Worked on mechanistic anomaly detection. Specifically, did theoretical research on a toy model involving matrix permanent estimation.</p>
 
 </div>
 
@@ -94,7 +94,7 @@ Worked on performance optimizing RPC calls in a C++ microservices framework.
 **February — May 2024**
 
 <p class="exp-desc" data-tags="theory">Worked on Markov decision process theory.</p>
-<p class="exp-desc" data-tags="ai-safety">AI safety research on Vanessa Kosoy's learning-theoretic agenda. Specifically, I worked on MDP theory.</p>
+<p class="exp-desc" data-tags="ai-safety">Worked on the learning-theoretic AI alignment agenda.</p>
 
 </div>
 
