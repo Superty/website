@@ -57,14 +57,16 @@
 .experience-item>p:first-of-type {
   grid-column: 2;
   text-align: right;
-  margin-top: 1em;
+  margin-top: 0;
   margin-bottom: 0;
 }
 
 .experience-item {
   display: grid;
   grid-template-columns: 1fr auto;
-  gap: 1em;
+  column-gap: 1em;
+  row-gap: 0;
+  align-items: baseline;
   margin-bottom: 1.5em;
   clear: both;
   transition: opacity 0.2s ease, max-height 0.3s ease;
