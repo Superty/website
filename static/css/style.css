@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "Adwaita Sans", "Cantarell", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: "IBM Plex Sans", sans-serif;
   line-height: 1.6;
   color: #d8d0c4;
   background: #1d1714 url('/bg.png') no-repeat center center fixed;
