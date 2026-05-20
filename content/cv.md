@@ -20,7 +20,7 @@ Experience in **performance engineering and algorithms** across the stack:
 </div>
 <div class="cv-section">
 
-## Experience <div class="experience-filters"><label><input type="radio" name="exp-filter" class="tag-filter" value="systems" checked> Performance</label><label><input type="radio" name="exp-filter" class="tag-filter" value="ai-safety"> AI Safety</label><label><input type="radio" name="exp-filter" class="tag-filter" value="theory"> Theory</label></div>
+## Experience <div class="experience-filters"><label><input type="radio" name="exp-filter" class="tag-filter" value="systems" checked> Performance &amp; Compilers</label><label><input type="radio" name="exp-filter" class="tag-filter" value="ai-safety"> AI Safety</label><label><input type="radio" name="exp-filter" class="tag-filter" value="theory"> Theory</label></div>
 
 <div class="experience-item" data-tags="systems,theory">
 
