@@ -86,6 +86,12 @@ document.addEventListener('DOMContentLoaded', function() {
         experienceItems.forEach(item => {
             const itemTags = item.dataset.tags.split(',');
             item.classList.toggle('hidden', !itemTags.includes(selected.value));
+
+            // If the item has per-filter descriptions, show the matching one
+            item.querySelectorAll('.exp-desc').forEach(desc => {
+                const descTags = desc.dataset.tags.split(',');
+                desc.classList.toggle('hidden', !descTags.includes(selected.value));
+            });
         });
     }
 

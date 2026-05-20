@@ -173,7 +173,8 @@
   opacity: 0;
 }
 
-.experience-item.hidden {
+.experience-item.hidden,
+.exp-desc.hidden {
   display: none;
 }
 
