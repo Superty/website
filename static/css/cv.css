@@ -143,9 +143,17 @@
 
 /* Experience filters */
 /* Layout-specific bits; typography & flex layout are shared with .home-links in style.css */
+/* Lay the Experience heading out as a flex row so its text and the filter
+   share a baseline (instead of the filter floating up to the line top). */
+.cv h2:has(.experience-filters) {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  column-gap: 1em;
+}
+
 .experience-filters {
-  float: right;
-  margin-left: 1em;
+  margin-left: auto;
 }
 
 .experience-filters label {
