@@ -205,15 +205,6 @@ Thesis title: Efficient Static Analysis for Neural Networks
 
 </div>
 
-<div class="cv-section">
-
-## Programming Languages
-
-C++, Python, Bash, English (regular use). x86-64 assembly, LLVM IR (mostly reading).
-
-</div>
-
-
 <div class="cv-section collapsible collapsed">
 
 ## Talks
