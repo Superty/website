@@ -78,37 +78,22 @@ document.addEventListener('DOMContentLoaded', function() {
     const experienceItems = document.querySelectorAll('.experience-item');
 
     function filterExperience() {
-        // Get all checked tags
-        const checkedTags = Array.from(tagFilters)
-            .filter(cb => cb.checked)
-            .map(cb => cb.value);
+        // Get the currently selected filter (single radio)
+        const selected = Array.from(tagFilters).find(rb => rb.checked);
+        if (!selected) return;
 
-        // If no tags are checked, hide all items
-        if (checkedTags.length === 0) {
-            experienceItems.forEach(item => {
-                item.classList.add('hidden');
-            });
-            return;
-        }
-
-        // Show/hide items based on their tags
+        // Show only items tagged with the selected category
         experienceItems.forEach(item => {
             const itemTags = item.dataset.tags.split(',');
-            const hasMatchingTag = itemTags.some(tag => checkedTags.includes(tag));
-
-            if (hasMatchingTag) {
-                item.classList.remove('hidden');
-            } else {
-                item.classList.add('hidden');
-            }
+            item.classList.toggle('hidden', !itemTags.includes(selected.value));
         });
     }
 
-    // Add event listeners to checkboxes
+    // Add event listeners to radio buttons
     tagFilters.forEach(filter => {
         filter.addEventListener('change', filterExperience);
     });
 
-    // Initial filter (show all by default since all are checked)
+    // Apply the default filter (Systems) on load
     filterExperience();
 });

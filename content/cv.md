@@ -22,7 +22,7 @@ Strong math background evidenced by experience in theoretical research.
 </div>
 <div class="cv-section">
 
-## Experience <div class="experience-filters"><label><input type="checkbox" class="tag-filter" value="systems" checked> Systems</label><label><input type="checkbox" class="tag-filter" value="ai-safety" checked> AI Safety</label><label><input type="checkbox" class="tag-filter" value="theory" checked> Theory</label></div>
+## Experience <div class="experience-filters"><label><input type="radio" name="exp-filter" class="tag-filter" value="systems" checked> Systems</label><label><input type="radio" name="exp-filter" class="tag-filter" value="ai-safety"> AI Safety</label><label><input type="radio" name="exp-filter" class="tag-filter" value="theory"> Theory</label></div>
 
 <div class="experience-item" data-tags="systems,theory">
 
