@@ -17,8 +17,6 @@ Experience in **performance engineering and algorithms** across the stack:
 - performance debugging: reading flamegraphs, LLVM IR, x86-64 assembly, architecture diagrams, ...
 - benchmarking with [PMCs](https://www.amd.com/content/dam/amd/en/documents/epyc-technical-docs/programmer-references/58550-0.01.pdf), minimizing noise from frequency scaling, SMT, context switches, ...
 
-Strong math background evidenced by experience in theoretical research.
-
 </div>
 <div class="cv-section">
 
