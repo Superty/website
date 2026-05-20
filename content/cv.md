@@ -4,23 +4,23 @@ date: 2025-12-23
 draft: false
 ---
 
+<!-- <div class="cv-section"> -->
+
+<!-- ## Professional Summary -->
+
+<!-- Experience in **performance engineering and algorithms** across the stack: -->
+
+<!-- - implemented & maintain the integer linear programming (ILP) solver in MLIR [[code sample]](https://github.com/llvm/llvm-project/blob/main/mlir/lib/Analysis/Presburger/Simplex.cpp#L1996) [[library]](https://github.com/llvm/llvm-project/tree/main/mlir/lib/Analysis/Presburger) -->
+<!-- - optimized an ILP solver for compiler workloads using C++ templates & AVX-512 vector intrinsics to achieve a **3.6x speedup over SOTA** [[Distinguished Paper at OOPSLA]](https://2021.splashcon.org/details/splash-2021-oopsla/66/FPL-Fast-Presburger-Arithmetic-through-Transprecision) -->
+<!-- - research on **cache hierarchy miss rate prediction** [[paper at PLDI]](https://dl.acm.org/doi/10.1145/3656452) -->
+<!-- - designed **asymptotically better ILP algorithms** for our compiler use-case [[paper at CAV]](https://link.springer.com/chapter/10.1007/978-3-031-65627-9_14) -->
+<!-- - performance debugging: reading flamegraphs, LLVM IR, x86-64 assembly, architecture diagrams, ... -->
+<!-- - benchmarking with [PMCs](https://www.amd.com/content/dam/amd/en/documents/epyc-technical-docs/programmer-references/58550-0.01.pdf), minimizing noise from frequency scaling, SMT, context switches, ... -->
+
+<!-- </div> -->
 <div class="cv-section">
 
-## Professional Summary
-
-Experience in **performance engineering and algorithms** across the stack:
-
-- implemented & maintain the integer linear programming (ILP) solver in MLIR [[code sample]](https://github.com/llvm/llvm-project/blob/main/mlir/lib/Analysis/Presburger/Simplex.cpp#L1996) [[library]](https://github.com/llvm/llvm-project/tree/main/mlir/lib/Analysis/Presburger)
-- optimized an ILP solver for compiler workloads using C++ templates & AVX-512 vector intrinsics to achieve a **3.6x speedup over SOTA** [[Distinguished Paper at OOPSLA]](https://2021.splashcon.org/details/splash-2021-oopsla/66/FPL-Fast-Presburger-Arithmetic-through-Transprecision)
-- research on **cache hierarchy miss rate prediction** [[paper at PLDI]](https://dl.acm.org/doi/10.1145/3656452)
-- designed **asymptotically better ILP algorithms** for our compiler use-case [[paper at CAV]](https://link.springer.com/chapter/10.1007/978-3-031-65627-9_14)
-- performance debugging: reading flamegraphs, LLVM IR, x86-64 assembly, architecture diagrams, ...
-- benchmarking with [PMCs](https://www.amd.com/content/dam/amd/en/documents/epyc-technical-docs/programmer-references/58550-0.01.pdf), minimizing noise from frequency scaling, SMT, context switches, ...
-
-</div>
-<div class="cv-section">
-
-## Experience <div class="experience-filters"><label><input type="radio" name="exp-filter" class="tag-filter" value="systems" checked> Performance &amp; Compilers</label><label><input type="radio" name="exp-filter" class="tag-filter" value="ai-safety"> AI Safety</label><label><input type="radio" name="exp-filter" class="tag-filter" value="theory"> Theory</label></div>
+## Experience <div class="experience-filters"><label><input type="radio" name="exp-filter" class="tag-filter" value="systems" checked> Performance &amp; Compilers</label><label><input type="radio" name="exp-filter" class="tag-filter" value="ai-safety"> AI Alignment</label><label><input type="radio" name="exp-filter" class="tag-filter" value="theory"> Theory</label></div>
 
 <div class="experience-item" data-tags="systems,theory">
 
@@ -84,7 +84,7 @@ Worked on performance optimizing RPC calls in a C++ microservices framework.
 **August 2025**
 
 <p class="exp-desc" data-tags="theory">Worked on approximation algorithms for the matrix permanent.</p>
-<p class="exp-desc" data-tags="ai-safety">Worked on mechanistic anomaly detection. Specifically, did theoretical research on a toy model involving matrix permanent estimation.</p>
+<p class="exp-desc" data-tags="ai-safety">Worked on a toy model of mechanistic anomaly detection involving matrix permanent estimation.</p>
 
 </div>
 
@@ -252,7 +252,7 @@ Served as a TA for the cryptography and algorithms courses.
 ### Coach at the Indian IOI Training Camp
 **2016, 2018**
 
-Part of the team that took classes, prepared problems and test data, and evaluated students' solutions at the International Olympiad in Informatics Training Camp (IOITC), which is held to select a team to represent India at the International Olympiad in Informatics (IOI).
+Took classes, prepared problems and test data, evaluated students' solutions.
 
 </div>
 
@@ -264,7 +264,7 @@ Part of the team that took classes, prepared problems and test data, and evaluat
 
 <div class="cv-entry">
 
-### Coordinator of the Competitive Programming Club
+### Coordinator, Competitive Programming Club
 **Monsoon 2017; Spring 2018**
 
 One of two coordinators for the Competitive Programming Club that year. This involved conducting events and teaching topics in computer science, especially involving algorithms and data structures.
@@ -276,18 +276,18 @@ One of two coordinators for the Competitive Programming Club that year. This inv
 ### Student Systems Administrator
 **Monsoon 2017**
 
-Had the opportunity to get some hands-on experience in system administration by helping out the university's full-time staff.
+Got some hands-on experience in system administration by helping out the university's full-time staff.
 
 </div>
 
 <div class="cv-entry">
 
-### Copy-editor at the Ping! Student Magazine
+### Copy-editor & Contributor, Ping! Student Magazine
 **Monsoon 2017**
 
 - Copy-edited all the articles in the Monsoon 2017 issue
 - shepherded some articles through the writing process
-- co-authored an article on the necessity of UBI after AGI
+- co-wrote some articles
 
 </div>
 </div>
