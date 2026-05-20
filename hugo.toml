@@ -1,6 +1,9 @@
 baseURL = 'https://example.org/'
-languageCode = 'en-us'
+locale = 'en-us'
 title = 'Arjun Pitchanathan'
+
+# No tags/categories on this site; disable default taxonomies.
+[taxonomies]
 
 [markup]
   [markup.goldmark]
