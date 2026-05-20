@@ -1,0 +1,5 @@
+{{- /* Tag reference links whose display text is wrapped in [brackets] so they
+       can be styled in monospace (see .cv a.ref-link). Other links render as
+       Hugo's default. */ -}}
+{{- $ref := and (hasPrefix (.Text | string) "[") (hasSuffix (.Text | string) "]") -}}
+<a href="{{ .Destination | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if $ref }} class="ref-link"{{ end }}>{{ .Text | safeHTML }}</a>
