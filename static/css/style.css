@@ -103,7 +103,8 @@ a:hover {
   margin-bottom: 0.6em;
 }
 
-.home-links {
+.home-links,
+.experience-filters {
   font-family: "JetBrains Mono", monospace;
   font-weight: 500;
   font-size: 0.9rem;

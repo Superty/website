@@ -138,28 +138,39 @@
 }
 
 /* Experience filters */
+/* Layout-specific bits; typography & flex layout are shared with .home-links in style.css */
 .experience-filters {
   float: right;
-  padding: 0.6em 1em;
-  background: #1d1714;
-  border: 1px solid #2e2521;
-  border-radius: 4px;
-  display: flex;
-  gap: 1.5em;
   margin-left: 1em;
 }
 
 .experience-filters label {
   cursor: pointer;
-  display: flex;
-  align-items: center;
-  gap: 0.4em;
-  font-size: 0.95em;
-  color: #d8d0c4;
+  color: #a89888;
+  transition: color 0.15s ease;
 }
 
-.experience-filters input[type="checkbox"] {
-  cursor: pointer;
+.experience-filters label:hover {
+  color: #d06840;
+}
+
+.experience-filters label:has(input:checked) {
+  color: #d4a054;
+}
+
+/* "|" separators between options, matching the homepage link rows */
+.experience-filters label+label::before {
+  content: "|";
+  color: #584838;
+  margin-right: 0.6em;
+}
+
+/* Hide the native radio dots; the highlighted label shows the active filter */
+.experience-filters input[type="radio"] {
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0;
 }
 
 .experience-item.hidden {
