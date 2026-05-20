@@ -31,37 +31,24 @@
   color: #d8d0c4;
 }
 
-/* For non-experience items, use float layout */
-.cv h3:not(.experience-item h3) {
-  float: left;
-  clear: both;
-}
-
-.cv h3:not(.experience-item h3)+p {
-  margin-top: 1em;
-  text-align: right;
-  overflow: hidden;
-}
-
-.cv h3:not(.experience-item h3)+p+p,
-.cv h3:not(.experience-item h3)+p+ul {
-  clear: both;
-}
-
-/* Experience items use grid layout */
-.experience-item h3 {
+/* Dated entries (experience items and the teaching/undergrad entries) use a
+   grid so the title and its right-aligned date share a baseline. */
+.experience-item h3,
+.cv-entry h3 {
   grid-column: 1;
   margin-bottom: 0;
 }
 
-.experience-item>p:first-of-type {
+.experience-item>p:first-of-type,
+.cv-entry>p:first-of-type {
   grid-column: 2;
   text-align: right;
   margin-top: 0;
   margin-bottom: 0;
 }
 
-.experience-item {
+.experience-item,
+.cv-entry {
   display: grid;
   grid-template-columns: 1fr auto;
   column-gap: 1em;
@@ -72,14 +59,17 @@
   transition: opacity 0.2s ease, max-height 0.3s ease;
 }
 
-.experience-item>p:first-of-type strong {
+.experience-item>p:first-of-type strong,
+.cv-entry>p:first-of-type strong {
   font-weight: 400;
   color: #a89888;
   font-size: 0.9em;
 }
 
 .experience-item>p:not(:first-of-type),
-.experience-item>ul {
+.experience-item>ul,
+.cv-entry>p:not(:first-of-type),
+.cv-entry>ul {
   grid-column: 1 / -1;
   margin-top: 0.5em;
 }

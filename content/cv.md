@@ -238,10 +238,16 @@ the ACM SIGPLAN 33rd International Conference on Compiler Construction.
 
 ## Teaching
 
+<div class="cv-entry">
+
 ### Teaching Assistant at IIIT Hyderabad
 **Monsoon 2018, Spring 2019 semesters**
 
 Served as a TA for the cryptography and algorithms courses.
+
+</div>
+
+<div class="cv-entry">
 
 ### Coach at the Indian IOI Training Camp
 **2016, 2018**
@@ -250,19 +256,31 @@ Part of the team that took classes, prepared problems and test data, and evaluat
 
 </div>
 
+</div>
+
 <div class="cv-section collapsible collapsed">
 
 ## Undergraduate Activities
+
+<div class="cv-entry">
 
 ### Coordinator of the Competitive Programming Club
 **Monsoon 2017; Spring 2018**
 
 One of two coordinators for the Competitive Programming Club that year. This involved conducting events and teaching topics in computer science, especially involving algorithms and data structures.
 
+</div>
+
+<div class="cv-entry">
+
 ### Student Systems Administrator
 **Monsoon 2017**
 
 Had the opportunity to get some hands-on experience in system administration by helping out the university's full-time staff.
+
+</div>
+
+<div class="cv-entry">
 
 ### Copy-editor at the Ping! Student Magazine
 **Monsoon 2017**
@@ -270,6 +288,8 @@ Had the opportunity to get some hands-on experience in system administration by 
 - Copy-edited all the articles in the Monsoon 2017 issue
 - shepherded some articles through the writing process
 - co-authored an article on the necessity of UBI after AGI
+
+</div>
 </div>
 
 <footer class="cv-footer">
