@@ -37,7 +37,11 @@ Worked on static analysis for tiled linear algebraic kernels. I developed asympt
 ### Lead Maintainer of the MLIR Presburger Library
 **2020 — Present**
 
+<div class="exp-links">
+
 [[commits]](https://github.com/llvm/llvm-project/commits/main?author=superty) [[reviews]](https://github.com/search?q=repo\%3Allvm\%2Fllvm-project+\%22Reviewed+By\%3A+arjunp\%22\&type=commits\&p=1) [[older reviews]](https://github.com/llvm/llvm-project/pulls?q=is\%3Apr+reviewed-by\%3Asuperty+) [[website]](https://grosser.science/FPL)
+
+</div>
 
 - Lead maintainer of the Presburger library of the LLVM/MLIR open-source compiler framework
 - Reviewed 100+ pull requests and worked with a team of up to four other contributors

@@ -84,6 +84,18 @@
   margin-top: 0.5em;
 }
 
+/* A row of reference links under an experience title (e.g. the MLIR
+   open-source links) sits tight under the title rather than carrying the
+   full description gap. */
+.experience-item>.exp-links {
+  grid-column: 1 / -1;
+  margin-top: 0.1em;
+}
+
+.experience-item>.exp-links p {
+  margin: 0;
+}
+
 .cv h4 {
   font-size: 1.1em;
   margin-top: 0.8em;
